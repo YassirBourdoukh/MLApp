@@ -1,0 +1,7 @@
+numpy==1.20.1
+pandas==1.2.3
+scipy==1.6.1
+requests==2.25.1
+alpaca-trade-api==1.0.1
+pyportfolioopt==1.4.1
+beautifulsoup4==4.9.3

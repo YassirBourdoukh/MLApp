@@ -243,7 +243,7 @@ def stock_diffs(df_sell, df_pf, df_buy):
                 df_sell_final['share_amt_change'] = np.abs(df_sell_final['share_amt_change'])
                 df_sell_final.columns = df_sell_final.columns.str.replace('share_amt_change', 'qty')
         else:
-            df_sell_final = None
+            df_sell_final = df_sell         #modification none --> df_sell
     else:
         df_sell_final = df_stocks_held_prev      #modification curr --> prev
 
